@@ -6,11 +6,10 @@
              xmlns:local="clr-namespace:Gyakorlo.New"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Border Background="Purple" Margin="10" CornerRadius="20">
+   
         <Grid>
-
-
+        <Image Source="/Command/Images/HomokSupra.png"/>
+        
         </Grid>
-    </Border>
 
 </UserControl>
