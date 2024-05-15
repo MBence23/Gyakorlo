@@ -19,12 +19,12 @@
         
         <TextBlock Text="Szinek"/>
         <StackPanel Grid.Row="1">
-            <RadioButton Content="Zöld"/>
-            <RadioButton Content="Yellow"/>
+            <RadioButton IsChecked="True" Command="{Binding GreemViewCommand}" Content="Zöld"/>
+            <RadioButton Command="{Binding YellowViewCommand}" Content="Yellow"/>
             <RadioButton Content="Lila"/>
             <RadioButton Content="Kilépés"/>
         </StackPanel>
-        <ContentControl Grid.Row="1" Grid.Column="1"/>
+        <ContentControl Content="{Binding CurrentView}" Grid.Row="1" Grid.Column="1"/>
 
     </Grid>
 </Window>
